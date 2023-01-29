@@ -3,7 +3,9 @@ A website for a tennis ladder
 
 ## Project Desricption 
 
-    The purpose of the software is to create a website that my dad and his friends can use for a tennis ladder. A tennis ladder system provides a friendly and competitive environment to help players improve their skills and meet others at about the same level. The software will allow everyone for easy access to view their rank and other’s ranks. It will also keep track of previous match wins and future matches.
+    The purpose of the software is to create a website that my dad and his friends can use for a tennis ladder.
+A tennis ladder system provides a friendly and competitive environment to help players improve their skills and meet others at about the same level. 
+The software will allow everyone for easy access to view their rank and other’s ranks. It will also keep track of previous match wins and future matches.
 
     The software will be a full functional website that I will host so my father and his friends can use for a tennis ladder. The website will have a login system for users and an editable profile, have a way to view the rankings of all members, have a way to view the winners of matches, have a way to challenge a person based on strict requirements, have a way to set up a tennis match with a date and time in mind, and have a way to send emails to the person that is challenged. Data will be entered into the website via the users themselves, mainly the winner of a specific match.
 
