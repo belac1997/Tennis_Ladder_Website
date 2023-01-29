@@ -15,3 +15,5 @@ My project plan is to start with a building out a mock website with all the webp
 
 In conclusion, my goal for this project is that it will be used for a long time after it finished. I would like for it to be both part of my portfolio and have it used by my dad and his friends.
 
+## Use Stories
+
