@@ -35,4 +35,7 @@ When a user opens the website, they will be presented with two options, login or
 
 ![image](https://user-images.githubusercontent.com/51928072/216740049-d3a7c8bf-dd5e-475f-9d77-570d9ab939cf.png)
 
+## Wireframe Diagram
+
+![wireframe](https://user-images.githubusercontent.com/51928072/216770702-2903d37d-a50f-4582-95ac-b72a84b4e14e.png)
 
