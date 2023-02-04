@@ -15,5 +15,19 @@ My project plan is to start with a building out a mock website with all the webp
 
 In conclusion, my goal for this project is that it will be used for a long time after it finished. I would like for it to be both part of my portfolio and have it used by my dad and his friends.
 
-## Use Stories
+## User Stories
 
+As a user, I request a sign up and login system so that I can invite other people to join.
+As a user, I request an explanation of how a ladder systems work and how the website works so that no one is lost when they first join.
+As a user, I request the ability to view the whole ladder, and everyone’s ranks so that I can see where I stand on the ranking system.
+As a user, I request that I can only challenge people I am allowed to challenge so that there is little confusion and mistakes.
+As a user, I request the ability to post my weekly schedule of challenge times so others can plan around it when challenging me.
+
+## Use Case Diagram
+
+![image](https://user-images.githubusercontent.com/51928072/216740049-d3a7c8bf-dd5e-475f-9d77-570d9ab939cf.png)
+
+
+### Sign up/Login In
+
+A user will 
