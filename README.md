@@ -23,11 +23,16 @@ As a user, I request the ability to view the whole ladder, and everyone’s rank
 As a user, I request that I can only challenge people I am allowed to challenge so that there is little confusion and mistakes.
 As a user, I request the ability to post my weekly schedule of challenge times so others can plan around it when challenging me.
 
+## Use Cases
+
+##### Sign up
+When a user opens the website, they will be presented with two options, login or sign up. If they pick sign up, they will see a webpage explaining the rules of the ladder and require confirmation that the agree with those rules. After the user confirms they agree with the rules, they will be required to set up a new account with the following information. A username, first name, last name, valid email, password, confirm password, and availability on a weekly schedule. After all inputs are accounted for and the create account button has be pressed, the user has created an account.
+
+##### Login
+When a user opens the website, they will be presented with two options, login or sign up. If they choose login and they already have an account, they can input their username and password to login into their account. From there, they can interact with the rest of the website.
+
 ## Use Case Diagram
 
 ![image](https://user-images.githubusercontent.com/51928072/216740049-d3a7c8bf-dd5e-475f-9d77-570d9ab939cf.png)
 
 
-### Sign up/Login In
-
-A user will 
