@@ -53,8 +53,10 @@ The software shall allow users to input the winners of a match. The software wil
 
 |Id       | Requirements  |
 | ------- |---------------|
-|1        | The software shall allow users to create a user account. The software shall require a username, password, first name, last name, email, and weekly availability when creating an account. The software will allow for users to login to their account and make any changes to it.  |
-|2        | centered      |
+|1        | The software shall allow users to create a user account. The software shall require a username, password, first name, last name, email, and weekly availability when creating an account. The software will allow for users to login to their account and make any changes to it. |
+
+|2        | The software shall allow users to view a table containing the full tennis ladder and everyone’s rankings. The table will have search functionality to allow users to search for themselves and other players. The table will also have filter functionality to filter by rank and name. |
+
 |3        | are neat      |
 |4        | |
 |5        | |
