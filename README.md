@@ -51,4 +51,10 @@ The software shall allow users to challenge other players in a tennis match. The
 
 The software shall allow users to input the winners of a match. The software will record this information and automatically update the ranking system based on who won in the tennis match.
 
-
+|Id       | Requirements  |
+| ------- |---------------|
+|1        | The software shall allow users to create a user account. The software shall require a username, password, first name, last name, email, and weekly availability when creating an account. The software will allow for users to login to their account and make any changes to it.  |
+|2        | centered      |
+|3        | are neat      |
+|4        | |
+|5        | |
