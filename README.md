@@ -41,22 +41,11 @@ When a user opens the website, they will be presented with two options, login or
 
 ## Table of Requirements
 
-The software shall allow users to create a user account. The software shall require a username, password, first name, last name, email, and weekly availability when creating an account. The software will allow for users to login to their account and make any changes to it. 
-
-The software shall allow users to view a table containing the full tennis ladder and everyone’s rankings. The table will have search functionality to allow users to search for themselves and other players. The table will also have filter functionality to filter by rank and name.
-
-The software shall allow users to set their weekly schedule on days and times for which they can play. The software will allow users to see each other’s schedule so that users can plan out tennis matches. The software will allow users to change their schedule permanently or temporarily for a set number of days.
-
-The software shall allow users to challenge other players in a tennis match. The software will only allow users to challenge people in accordance with the rules, such as within a certain rank and only on days the challenged can play on.
-
-The software shall allow users to input the winners of a match. The software will record this information and automatically update the ranking system based on who won in the tennis match.
-
 |Id       | Requirements  |
 | ------- |---------------|
 |1        | The software shall allow users to create a user account. The software shall require a username, password, first name, last name, email, and weekly availability when creating an account. The software will allow for users to login to their account and make any changes to it. |
-
 |2        | The software shall allow users to view a table containing the full tennis ladder and everyone’s rankings. The table will have search functionality to allow users to search for themselves and other players. The table will also have filter functionality to filter by rank and name. |
-
-|3        | are neat      |
-|4        | |
-|5        | |
+|3        | The software shall allow users to set their weekly schedule on days and times for which they can play. The software will allow users to see each other’s schedule so that users can plan out tennis matches. The software will allow users to change their schedule permanently or temporarily for a set number of days. |
+|4        |The software shall allow users to challenge other players in a tennis match. The software will only allow users to challenge people in accordance with the rules, such as within a certain rank and only on days the challenged can play on. |
+|5        |The software shall allow users to input the winners of a match. The software will record this information and automatically update the ranking system based on who won in the tennis match.
+ |
