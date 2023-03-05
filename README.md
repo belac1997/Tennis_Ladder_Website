@@ -49,3 +49,11 @@ When a user opens the website, they will be presented with two options, login or
 |4        |The software shall allow users to challenge other players in a tennis match. The software will only allow users to challenge people in accordance with the rules, such as within a certain rank and only on days the challenged can play on. |
 |5        |The software shall allow users to input the winners of a match. The software will record this information and automatically update the ranking system based on who won in the tennis match.
  |
+
+## Entity Relationship Diagram (ERD)
+
+![EDR](https://user-images.githubusercontent.com/51928072/222993248-6e705bed-c06e-4c78-a434-e52d9f406f83.png)
+
+## UML class diagram
+
+![UML](https://user-images.githubusercontent.com/51928072/222993286-92801c9c-4135-4a85-bb14-cbc51222c76f.png)
