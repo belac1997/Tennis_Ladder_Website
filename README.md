@@ -12,6 +12,7 @@ A website for a tennis ladder
 [UML class diagram](#UML)   
 
 <a name="projectdescription"/>   
+
 ## Project Description 
 
 The purpose of the software is to create a website that my dad and his friends can use for a tennis ladder. A tennis ladder system provides a friendly and competitive environment to help players improve their skills and meet others at about the same level.The software will allow everyone for easy access to view their rank and other’s ranks. It will also keep track of previous match wins and future matches.
@@ -27,6 +28,7 @@ My project plan is to start with a building out a mock website with all the webp
 In conclusion, my goal for this project is that it will be used for a long time after it finished. I would like for it to be both part of my portfolio and have it used by my dad and his friends.
 
 <a name="stories"/>   
+
 ## User Stories
 
 As a user, I request a sign up and login system so that I can invite other people to join.
@@ -36,6 +38,7 @@ As a user, I request that I can only challenge people I am allowed to challenge 
 As a user, I request the ability to post my weekly schedule of challenge times so others can plan around it when challenging me.
 
 <a name="cases"/>   
+
 ## Use Cases
 
 ##### Sign up
@@ -45,16 +48,19 @@ When a user opens the website, they will be presented with two options, login or
 When a user opens the website, they will be presented with two options, login or sign up. If they choose login and they already have an account, they can input their username and password to login into their account. From there, they can interact with the rest of the website.
 
 <a name="UCD"/>   
+
 ## Use Case Diagram
 
 ![image](https://user-images.githubusercontent.com/51928072/216740049-d3a7c8bf-dd5e-475f-9d77-570d9ab939cf.png)
 
 <a name="wireframe"/>   
+
 ## Wireframe Diagram
 
 ![wireframe](https://user-images.githubusercontent.com/51928072/216770702-2903d37d-a50f-4582-95ac-b72a84b4e14e.png)
 
 <a name="ToR"/>   
+
 ## Table of Requirements
 
 |Id       | Requirements  |
@@ -66,11 +72,13 @@ When a user opens the website, they will be presented with two options, login or
 |5        |The software shall allow users to input the winners of a match. The software will record this information and automatically update the ranking system based on who won in the tennis match. |
 
 <a name="ERD"/>   
+
 ## Entity Relationship Diagram (ERD)
 
 ![EDR](https://user-images.githubusercontent.com/51928072/222993248-6e705bed-c06e-4c78-a434-e52d9f406f83.png)
 
 <a name="UML"/>   
+
 ## UML class diagram
 
 ![UML](https://user-images.githubusercontent.com/51928072/222993286-92801c9c-4135-4a85-bb14-cbc51222c76f.png)
