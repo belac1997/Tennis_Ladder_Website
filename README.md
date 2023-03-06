@@ -3,13 +3,13 @@ A website for a tennis ladder
 
 ### Table of Contents  
 [Project Description](#projectdescription)  
-[User Stories](#stories) 
-[Use Cases](#cases)
-[Use Case Diagram](#UCD) 
-[Wireframe Diagram](#wireframe)
-[Table of Requirements](#ToR) 
-[Entity Relationship Diagram (ERD)](#ERD)
-[UML class diagram](#UML) 
+[User Stories](#stories)   
+[Use Cases](#cases)    
+[Use Case Diagram](#UCD)    
+[Wireframe Diagram](#wireframe)   
+[Table of Requirements](#ToR)    
+[Entity Relationship Diagram (ERD)](#ERD)   
+[UML class diagram](#UML)   
 
 <a name="projectdescription"/>
 
