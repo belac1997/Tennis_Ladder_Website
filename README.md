@@ -2,11 +2,10 @@
 A website for a tennis ladder
 
 ##### Table of Contents  
-[Headers](#headers)  
+[Project Description](#projectdescription)  
 [Emphasis](#emphasis)  
 ...snip...    
-<a name="headers"/>
-## Headers
+<a name="projectdescription"/>
 ## Project Description 
 
 The purpose of the software is to create a website that my dad and his friends can use for a tennis ladder. A tennis ladder system provides a friendly and competitive environment to help players improve their skills and meet others at about the same level.The software will allow everyone for easy access to view their rank and other’s ranks. It will also keep track of previous match wins and future matches.
