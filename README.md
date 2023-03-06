@@ -3,8 +3,9 @@ A website for a tennis ladder
 
 ##### Table of Contents  
 [Project Description](#projectdescription)  
-[Emphasis](#emphasis)  
-...snip...    
+[User Stories](#stories)  
+
+
 <a name="projectdescription"/>
 ## Project Description 
 
@@ -20,6 +21,7 @@ My project plan is to start with a building out a mock website with all the webp
 
 In conclusion, my goal for this project is that it will be used for a long time after it finished. I would like for it to be both part of my portfolio and have it used by my dad and his friends.
 
+<a name="stories"/>
 ## User Stories
 
 As a user, I request a sign up and login system so that I can invite other people to join.
