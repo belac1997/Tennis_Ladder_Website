@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="widt=device-width, initial-scale=1">
+	<title>Caleb's Tennis Ladder</title>
+	<link type="text/css" rel="stylesheet" href="styles/jquery-ui.min.css">
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="styles/main_rwd.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script> 
+	<script type="text/javascript">
+    	$(document).ready(function(){
+			$("#tabs").tabs();
+    	});
+    </script>
+</head>
+<body>
+
+  <header>
+   	<h2>Caleb's Tennis Ladder</h2>
+
+  </header>
+
+    <main>   
+		<div id="tabs-1">
+		<input type="text" name="username" placeholder="Username"></input>
+		<input type="text" name="password" placeholder="Password"></input>
+		<button id="login" type="submit" onclick="window.location.href='index.html';">Login</button>
+		</div>
+    </main> 
+  <footer>
+	<p>2023 Caleb Rigby</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="widt=device-width, initial-scale=1">
+	<title>Caleb's Tennis Ladder</title>
+	<link type="text/css" rel="stylesheet" href="styles/jquery-ui.min.css">
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="styles/main_rwd.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script> 
+	<script type="text/javascript">
+    	$(document).ready(function(){
+			$("#tabs").tabs();
+    	});
+    </script>
+</head>
+<body>
+
+  <header>
+  	<button id="login" type="submit" onclick="window.location.href='login.html';">Login</button>
+   	<h2>Caleb's Tennis Ladder</h2>
+
+  </header>
+
+    <main>         
+        <div id="tabs"> 
+            <ul>
+				<li><a href="#tabs-1">Home Page</a></li>
+                <li><a href="#tabs-2">Tennis Ladder</a></li>
+                <li><a href="#tabs-3">Ranks</a></li>
+                <li><a href="#tabs-4">Upcoming Matches</a></li>
+				<li><a href="#tabs-5">About</a></li>
+
+            </ul>
+			<div id="tabs-1">
+				<p>Welcome to the tennis ladder. I haven't yet, you can sign up to participate.</p>
+				<h5>Recent Winners</h5>
+				<table>
+					<tr>
+						<th>Challenger</th>
+						<th>Defender</th>
+						<th>Winner</th>
+					</tr>
+					<tr>
+						<td>Mary Jane</td>
+						<td>Maxwell Dee Anderson</td>
+						<td>Mary Jane</td>
+					</tr>
+				</table>
+            </div>
+            <div id="tabs-2">
+				<table>
+					<tr>
+						<th>Name</th>
+						<th>Rank</th>
+						<th>email</th>
+					</tr>
+					<tr>
+						<td>John Doe</td>
+						<td>1st</td>
+						<td>johndoe@gg.com</td>
+					</tr>
+					<tr>
+						<td>Mary Jane</td>
+						<td>2nd</td>
+						<td>maryjane@gg.com</td>
+					</tr>
+					<tr>
+						<td>Maxwell Dee Anderson</td>
+						<td>3rd</td>
+						<td>maxwelldeeanderson@gg.com</td>
+					</tr>
+				</table>
+            </div>
+            <div id="tabs-3">
+				<input type="text" name="filter" placeholder="Filter for names"></input>
+				<table>
+					<tr>
+						<th>Name</th>
+						<th>Rank</th>
+						<th>email</th>
+					</tr>
+					<tr>
+						<td>John Doe</td>
+						<td>1st</td>
+						<td>johndoe@gg.com</td>
+					</tr>
+					<tr>
+						<td>Mary Jane</td>
+						<td>2nd</td>
+						<td>maryjane@gg.com</td>
+					</tr>
+					<tr>
+						<td>Maxwell Dee Anderson</td>
+						<td>3rd</td>
+						<td>maxwelldeeanderson@gg.com</td>
+					</tr>
+				</table>
+            </div>
+            <div id="tabs-4">			
+				<table>
+					<tr>
+						<th>Challenger</th>
+						<th>Defender</th>
+						<th>Time</th>
+						<th>Place</th>
+					</tr>
+					<tr>
+						<td>Maxwell Dee Anderson</td>
+						<td>Mary Jane</td>
+						<td>April 2nd</td>
+						<td>YMCA</td>
+					</tr>
+
+				</table>
+            </div>
+            <div id="tabs-5">
+				<p>The tennins ladder is a ladder that ranks each person.</p>
+				<p>In order to move up in the ladder, you must challanger a few select people ahead of you and win.</p>
+				<p>The challanger must find a court to play and and set the time of the match to the challengees schedual.</p>
+            </div>			
+
+        </div>
+    </main> 
+  <footer>
+	<p>2023 Caleb Rigby</p>
+  </footer>
+</body>
+</html>

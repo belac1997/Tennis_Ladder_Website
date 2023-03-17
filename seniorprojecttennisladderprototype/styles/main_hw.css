@@ -1,0 +1,230 @@
+html {
+	background-image: url(backcode.png);
+	background-repeat: repeat-x, repeat;
+	background-size: 100%, 10%;
+	background-attachment: fixed;
+}
+body  {
+	font-family: timesnewroman, 'timesnewroman', times, baskerville, georgia, serif;
+	max-width: 960px;
+	width: 95%;                        
+	margin: 5px auto; 
+	padding: 0;
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+	background-color: white
+}
+h1, h2, h3, p {
+	margin: 0;
+	padding: 0;
+}
+
+/* Header */
+header {
+	background-color: white;
+    padding: .9375em 1.875% .9375em 1.875%;  
+} 
+header img { 
+	float: left; 
+	padding-right: 1.875%;              
+	width: 10.6%;
+	max-width: 85px;
+	min-width: 40px;
+} 
+header h2 {	
+	font-family: timesnewroman, 'timesnewroman', times, baskerville, georgia, serif;
+	font-size: 230%;
+	margin-left: 150px;
+}
+header h3 {
+	font-size: 160%;
+	padding-bottom: .75em;
+	margin-left: 330px; 
+}
+
+
+}
+main {
+	display: flex;
+}
+/* Sidebar */
+aside {
+	flex-basis: 26%; 
+	padding: 1.25em 0;                
+	order: 2;
+}
+aside h2 {
+	position: left;
+	font-size: 160%;
+}
+aside ol {
+	margin-left: -1.5em;
+	margin-right: 1.5em;
+}
+	aside h2 span {	
+		display: table;
+	}
+/* Section */
+section {
+	flex-basis: 74%;                       
+	padding: 1.25em 5% 1.25em 15%;
+	order: 2;
+}
+section h1 { 
+	font-size: 140%;
+	margin-bottom: .5em;
+	margin-left: 6em;
+	margin-right: 6em;
+}
+section h2 {
+	font-size: 160%;
+	margin: 0 0 0 -1em;
+}
+section p {
+	margin-bottom: .5em;
+}
+section img {
+	width: 60%;
+	max-width: 300px;
+	padding: .5em;
+	float: right;
+}
+
+
+/* the styles for the table */
+figure {
+	margin-top: .5em;
+	margin-left: 0;
+}
+figcaption {
+	color: black;
+}
+
+/* Table */
+table {
+	border-collapse: collapse;
+	width: 90%;                       
+	margin: 1em 1em 1em 3em;
+}
+thead {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+tfoot {
+	border-top: 2px solid black;
+}
+th, td {
+	padding: .2em 1em;
+	text-align: left;
+}
+tfoot th, tfoot td {
+	text-align: right;
+	font-weight: bold;
+}
+.border_bottom {
+	border-bottom: 2px solid black;
+}
+
+/* Footer */
+footer { 
+	clear: both;
+	border-top: 2px solid black;
+	padding: .9375em 1.875% .9375em 1.875%;       /* top and bottom: 15 / 16; right and left: 15 / 800 x 100 */
+	background-color: white
+} 
+footer p {
+	font-size: 90%;
+	text-align: center;
+}
+
+#mobile_menu {
+	display: none;
+}
+
+@media only screen and (max-width: 800px) {
+	html {
+		background-image: none;
+	}
+	body {
+		font-size: 90%;
+		box-shadow: none;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	#nav_menu {
+		display: none;
+	}
+	#mobile_menu {
+		display: block;
+	}
+	main {
+		flex-direction: column;
+	}
+	header h2 {
+		font-size: 200%;
+		margin-left: 0px;
+	}
+	header h3 {
+		margin-left: 0px;
+	}
+	section {
+		order: 1;
+		padding-left: 5%;
+		padding-bottom: .5em; 
+	}
+	section h2 {
+		font-size: 139%;
+		margin: 0;
+	}	
+	aside {
+		order: 2;
+		padding: 0 5% 1em 5%;
+	}
+	aside h2 span {	
+		display: inline;
+	}
+	#nav_list ul {
+		width: 50%;
+		padding-left: 25%;
+		text-align: center;
+	}
+	#nav_list ul li a {
+		padding-left: 0;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	header h2 {
+		font-size: 180%;
+	}
+	header h3 {
+		font-size: 110%;
+	}
+	section h1 {
+		font-size: 130%;
+	}
+	section h1:first-letter {
+		font-size: 180%;
+	}
+}
+label, input, select {
+	font-size: 90%;
+}
+label {
+    float: left;
+    width: 6em;
+    text-align: right;
+}
+input, select {
+    width: 28em;
+    margin-left: 1em;
+    margin-bottom: .5em;
+}
+input:required, input[required] input:invalid {
+	border: 2px solid lightgray;
+}
+input:valid {
+	border: 2px solid lightgray;
+}
