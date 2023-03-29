@@ -82,3 +82,11 @@ When a user opens the website, they will be presented with two options, login or
 ## UML class diagram
 
 ![UML](https://user-images.githubusercontent.com/51928072/222993286-92801c9c-4135-4a85-bb14-cbc51222c76f.png)
+
+## Data Access Layer
+
+![image](https://user-images.githubusercontent.com/51928072/228660274-4b425af2-cd03-4060-a803-d2161ce1d6c0.png)
+![image](https://user-images.githubusercontent.com/51928072/228660348-2ea2523d-8d22-4806-a9ef-131cfde820db.png)
+![participant](https://user-images.githubusercontent.com/51928072/228660385-0786d6ba-516a-4787-a6b7-35c45627a38c.png)
+![challenge](https://user-images.githubusercontent.com/51928072/228660398-cc7b93a3-7b79-460a-a738-462a849351bb.png)
+
