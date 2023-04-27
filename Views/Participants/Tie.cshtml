@@ -1,0 +1,26 @@
+﻿@model ValueTuple<TennisLadder.Models.Participant, TennisLadder.Models.Participant>
+
+@{
+    ViewData["Title"] = "Tie or Cancellation";
+}
+
+<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+
+    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+        <ul class="navbar-nav flex-grow-1">
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="" asp-controller="Participants" asp-action="Ranks" asp-route-id="@Model.Item2.Id">Ranks</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="" asp-controller="Participants" asp-action="Challenges" asp-route-id="@Model.Item2.Id">Challenges</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<h1>Tie/Cancellation</h1>
+<p><b>@Html.DisplayFor(model => model.Item2.Name)</b> tied <b>@Html.DisplayFor(model => model.Item1.Name)</b> or the match was cancelled?</p>
+<form asp-action="Tie">
+    <input type="submit" value="Submit" class="btn btn-primary" />
+</form>
+
